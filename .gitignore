@@ -1,0 +1,31 @@
+# Archivos de estado de Terraform (contienen información sensible)
+*.tfstate
+*.tfstate.*
+credentials.json
+
+# Archivos de respaldo de Terraform
+*.backup
+*.bak
+*.log
+
+# Configuración local de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de variables sensibles
+*.tfvars
+*.tfvars.json
+
+# Archivos de credenciales
+*.pem
+*.key
+*.crt
+*.pfx
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de VSCode u otros editores
+.vscode/
+.idea/
