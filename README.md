@@ -7,11 +7,11 @@ Permite personalizar parámetros de la VM mediante variables.
 
 ## 📂 Estructura del proyecto
 
-├── main.tf # Configuración principal de Terraform
-├── variables.tf # Definición de variables
-├── outputs.tf # Valores de salida (IP pública, nombre de VM, etc.)
-├── .gitignore # Ignorar archivos sensibles y generados
-└── README.md # Documentación del proyecto
+- `main.tf` → Configuración principal de Terraform
+- `variables.tf` → Definición de variables
+- `outputs.tf` → Valores de salida (IP pública, nombre de VM, etc.)
+- `.gitignore` → Ignorar archivos sensibles y generados
+- `README.md` → Documentación del proyecto
 
 
 ---
