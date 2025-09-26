@@ -55,9 +55,10 @@ vm_params = {
 ## 🚀 Uso
 
 Clonar el repositorio:
-
+```
 git clone https://github.com/BrandonAJimenezM/IaC_Terraform
 cd IaC_Terraform
+```
 
 
 Configurar credenciales:
