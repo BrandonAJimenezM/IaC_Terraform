@@ -51,7 +51,7 @@ vm_params = {
   allow_stopping_for_update = true
 }
 ```
-
+---
 ##🚀 Uso
 
 Clonar el repositorio:
@@ -98,13 +98,13 @@ vm_info = {
   "ip"     = "34.125.50.23"
 }
 ```
-##🛑 Destrucción de recursos
+🛑 Destrucción de recursos
 
 Para eliminar la VM creada:
 ```
 terraform destroy
 ```
-
+---
 ##📝 Notas
 
 Los archivos *.tfstate, credenciales (.json) y .terraform/ no deben subirse al repositorio.
