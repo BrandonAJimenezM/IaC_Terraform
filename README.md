@@ -50,8 +50,9 @@ vm_params = {
   zone                      = "us-central1-a"
   allow_stopping_for_update = true
 }
+```
 
-🚀 Uso
+##🚀 Uso
 
 Clonar el repositorio:
 
@@ -61,46 +62,50 @@ cd IaC_Terraform
 
 Configurar credenciales:
 Guarda tu archivo de credenciales JSON (service account) en la raíz del proyecto y asigna su ruta en terraform.tfvars:
-
+```hcl
 project          = "tu-project-id"
 credentials_file = "credenciales.json"
-
+```
 
 Inicializar Terraform:
-
+```hcl
 terraform init
+```
 
 
 Previsualizar cambios:
-
+```hcl
 terraform plan
+```
 
 
 Aplicar configuración:
-
+```hcl
 terraform apply
+```
 
 📤 Outputs
-
+```hcl
 ip_publica_vm → IP pública de la VM creada
 
 vm_info → Mapa con nombre e IP de la VM
-
+```
 Ejemplo:
-
+```hcl
 ip_publica_vm = "34.125.50.23"
 vm_info = {
   "nombre" = "sys-terraform-instance"
   "ip"     = "34.125.50.23"
 }
-
-🛑 Destrucción de recursos
+```
+##🛑 Destrucción de recursos
 
 Para eliminar la VM creada:
-
+```
 terraform destroy
+```
 
-📝 Notas
+##📝 Notas
 
 Los archivos *.tfstate, credenciales (.json) y .terraform/ no deben subirse al repositorio.
 
